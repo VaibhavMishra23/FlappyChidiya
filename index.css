@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    background: url('./wp6956942.png');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: grid;
+    grid-template-columns: repeat(36,1fr);
+    grid-template-rows: repeat(28,1fr);
+}
+.birdcol{
+    background-image: url('./OIP.jpg');
+    background-size: cover;
+    transition: grid-row 0.1s ease-in-out;
+}
+.birdcol2{
+    background-image: url('./OIP.jpg');
+    background-size: cover;
+    transform: rotate(-45deg);
+    transition: grid-row 0.1s ease-in-out;
+}
+.green{
+    background-color: rgb(87, 237, 87);
+    transition: grid-row 0.1s ease-in-out;
+}
+.green2{
+    background-color: rgb(87, 237, 87);
+    border-left: 2px solid black;
+    transition: grid-row 0.1s ease-in-out;
+}
